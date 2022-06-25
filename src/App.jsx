@@ -1,16 +1,18 @@
-import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
 
-import HeroPage from "./pages/heropage";
-import SignupPage from "./pages/signup_driver";
-import AvailDriver from "./pages/availdriver";
+import HeroPage from "./pages/HeroPage";
+import SignupPage from "./pages/SignUpPage";
+import AvailDriver from "./pages/AvailDriver";
 
 function App() {
   return (
-    <>
-      <HeroPage />
-      <SignupPage />
-      <AvailDriver />
-    </>
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<HeroPage />} />
+        <Route path="signup" element={<SignupPage />} />
+        <Route path="available-drivers" element={<AvailDriver />} />
+      </Routes>
+    </div>
   );
 }
 

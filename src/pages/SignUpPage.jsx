@@ -1,4 +1,4 @@
-function SignupPage() {
+function SignUpPage() {
     return (
         <section>
             <div class="flex flex-col justify-center min- py-12 sm:px-6 lg:px-8">
@@ -45,4 +45,4 @@ function SignupPage() {
         </section >
     );
 }
-export default SignupPage;
+export default SignUpPage;
