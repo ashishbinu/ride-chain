@@ -12,20 +12,20 @@ function SignUpPage() {
                             <div>
                                 <label htmlFor="Name" className="block text-sm font-medium text-gray-700"> Name </label>
                                 <div className="mt-1">
-                                    <input id="Name " name="Name " type="Text" autocomplete="Name " required="" placeholder="Enter Your Name" className="block w-full px-5 py-3 text-base text-neutral-600 placeholder-gray-300 transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-gray-50 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" />
+                                    <input id="Name " name="Name " type="Text" autoComplete="Name " required="" placeholder="Enter Your Name" className="block w-full px-5 py-3 text-base text-neutral-600 placeholder-gray-300 transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-gray-50 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" />
                                 </div>
                             </div>
 
                             <div>
                                 <label htmlFor="vehicle" className="block text-sm font-medium text-gray-700"> Vehicle Type </label>
                                 <div className="mt-1">
-                                    <input id="vehicle" name="vehicle" type="Text" autocomplete="vehicle" required="" placeholder="Enter Vehicle Type" className="block w-full px-5 py-3 text-base text-neutral-600 placeholder-gray-300 transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-gray-50 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" />
+                                    <input id="vehicle" name="vehicle" type="Text" autoComplete="vehicle" required="" placeholder="Enter Vehicle Type" className="block w-full px-5 py-3 text-base text-neutral-600 placeholder-gray-300 transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-gray-50 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" />
                                 </div>
                             </div>
                             <div>
                                 <label htmlFor="phone" className="block text-sm font-medium text-gray-700"> Phone Number </label>
                                 <div className="mt-1">
-                                    <input id="phone" name="phone" type="tel" autocomplete="phone" required="" placeholder="Enter Your Phone Number" className="block w-full px-5 py-3 text-base text-neutral-600 placeholder-gray-300 transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-gray-50 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" />
+                                    <input id="phone" name="phone" type="tel" autoComplete="phone" required="" placeholder="Enter Your Phone Number" className="block w-full px-5 py-3 text-base text-neutral-600 placeholder-gray-300 transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-gray-50 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" />
                                 </div>
                             </div>
                             <div>
