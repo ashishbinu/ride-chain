@@ -34,7 +34,7 @@ function HeroPage() {
           console.log(error);
         });
     }
-    if (user) navigate("available-drivers");
+    navigate("available-drivers");
   };
 
   const logOut = async () => {
